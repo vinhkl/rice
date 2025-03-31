@@ -3,7 +3,7 @@ import { serve } from "https://deno.land/std/http/server.ts";
 const UUID: string = Deno.env.get("UUID") || "87a58049-6a67-4b31-b76e-77534e39b54a";
 const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";  //获取订阅路径
 const XPATH: string = Deno.env.get("XPATH") || "xhttp";      // 节点路径
-const DOMAIN: string = Deno.env.get("DOMAIN") || "";         // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
+const DOMAIN: string = Deno.env.get("DOMAIN") || "vinhkl-rice-40.deno.dev";         // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
 const NAME: string = Deno.env.get("NAME") || "Deno";         // 名称
 const PORT: number = parseInt(Deno.env.get("PORT") || "3000"); 
 
